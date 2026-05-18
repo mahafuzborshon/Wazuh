@@ -93,14 +93,10 @@ Inside Ubuntu, run:
 ```bash
 ip a
 ```
+<img width="835" height="277" alt="image" src="https://github.com/user-attachments/assets/014b45ac-d886-4303-a48a-b7fee6f2ab1d" />
+
 
 Find the IP address listed under your network interface.
-
-Example:
-
-```bash
-192.168.1.100
-```
 
 Keep this address available because you’ll use it to connect from Windows.
 
@@ -109,10 +105,12 @@ Keep this address available because you’ll use it to connect from Windows.
 ## Step 2: Configure the SSH Session
 
 Inside PuTTY:
+<img width="620" height="556" alt="image" src="https://github.com/user-attachments/assets/57f58e70-9ac2-4a4f-be0c-f91bf357654d" />
+
 
 | Setting | Value |
 |---|---|
-| Host Name | Your Ubuntu IP address |
+| Host Name | Ip Address: 172.30.28.1 |
 | Port | 22 |
 | Connection Type | SSH |
 
@@ -121,7 +119,7 @@ Inside PuTTY:
 1. In **Saved Sessions**, type:
 
 ```text
-Ubuntu-Wazuh
+Wazuh Installation
 ```
 
 2. Click **Save**.
