@@ -51,9 +51,8 @@ apt update && apt upgrade -y
 
 Expected output:
 
-```bash
-All packages are up to date.
-```
+<img width="941" height="415" alt="Package Update   Upgrade" src="https://github.com/user-attachments/assets/3004cbaa-e91b-4c38-a8f0-f4639c9a4c17" />
+
 
 ---
 
@@ -73,6 +72,8 @@ These packages are required for:
 - Package authentication
 
 ---
+<img width="941" height="935" alt="Install Dependencies" src="https://github.com/user-attachments/assets/b6138ea4-2e7c-4232-8eb2-15fe29780493" />
+
 
 # Step 4: Create Swap Memory (Important)
 
@@ -108,6 +109,9 @@ Verify swap:
 free -h
 ```
 
+<img width="731" height="122" alt="image" src="https://github.com/user-attachments/assets/2084fb90-4130-4cdd-9d63-45440edda864" />
+
+
 ---
 
 # Step 5: Download Wazuh Installation Script
@@ -133,6 +137,8 @@ Run the installation script:
 ```bash
 sudo bash wazuh-install.sh -a
 ```
+<img width="939" height="366" alt="Wazuh Indexer Install" src="https://github.com/user-attachments/assets/2b78cbe6-e9a6-4bdf-abf0-4533c332bc33" />
+
 
 The installation assistant installs:
 
@@ -159,6 +165,8 @@ sudo bash wazuh-install.sh -a -o
 ```
 
 The `-o` flag overwrites the previous installation.
+
+<img width="939" height="857" alt="Wazuh Installation" src="https://github.com/user-attachments/assets/877a619f-6a18-47be-8210-4037bd807abe" />
 
 ---
 
@@ -205,9 +213,8 @@ sudo systemctl status wazuh-manager
 
 Expected status:
 
-```bash
-Active: active (running)
-```
+<img width="938" height="790" alt="Wazuh Manager Status" src="https://github.com/user-attachments/assets/fdc7f14e-6e0e-4f58-81bf-9e293ee89033" />
+
 
 ---
 
@@ -221,10 +228,8 @@ sudo /usr/share/wazuh-indexer/plugins/opensearch-security/tools/hash.sh
 
 Example:
 
-```bash
-[Password:]
-$2y$12$...
-```
+<img width="938" height="150" alt="Pass Hash" src="https://github.com/user-attachments/assets/91a8b465-74ba-4f98-bc46-da333fc6ce91" />
+
 
 This hash can be used for authentication configuration if required.
 
@@ -281,6 +286,7 @@ Expected status:
 ```text
 Active
 ```
+<img width="1103" height="337" alt="image" src="https://github.com/user-attachments/assets/9376bfb4-83ce-4a3d-beb2-54314839cac4" />
 
 ---
 
@@ -398,3 +404,4 @@ This setup provides:
 - Security monitoring
 - File integrity monitoring
 - Endpoint visibility
+<img width="1918" height="872" alt="Wazuh Dashboard" src="https://github.com/user-attachments/assets/32a73c03-0773-40af-bd6d-de800d3f5ae0" />
