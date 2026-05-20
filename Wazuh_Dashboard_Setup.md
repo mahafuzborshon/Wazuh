@@ -30,9 +30,8 @@ mahafuzborshon@192.168.1.4's password:
 
 After successful login:
 
-```bash
-Welcome to Ubuntu 22.04.5 LTS
-```
+<img width="825" height="712" alt="Connect Putty" src="https://github.com/user-attachments/assets/907c4a78-d925-4ae5-a6fa-a880f43d1343" />
+
 
 ---
 
